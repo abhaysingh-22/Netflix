@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+*{
+    margin:0%;
+    padding:0%;
+}
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url(ASSETS/netflixbackgrnd.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: max(1000px, 100vw);
+    height: 100vh;
+    position: relative;
+}
+
+.main .box{
+    height: 100vh;
+    width: 100%;
+    opacity: 0.6;
+    background-color: black;
+    position: absolute;
+    top:0;
+}
+
+nav> :nth-child(1){
+    display: flex;
+    width: 75vw;
+    height: 70px;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+
+}
+
+nav img{
+    height: px;
+    background-color: black;
+    position: relative;
+    z-index: 10;
+    width: 100px;
+    height: auto;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    font-family: sans-serif;
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+.hero> :first-child{
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+.separation{
+    height: 7px;
+    background-color: rgb(77, 75, 75);
+    opacity: 0.7;
+}
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: white;
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 6px 33px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+    border-color: black;
+}
+.main input{
+    padding: 9px 101px 8px 14px;
+    font-size: 12px;
+    font-weight: 900;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    color: white;
+    border: 1px solid rgba(23, 23, 23, 0.5);
+    margin-right: 10px;
+}
+.hero-buttons{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
